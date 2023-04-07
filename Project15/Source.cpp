@@ -18,7 +18,7 @@ int main() {
     clock_t end = clock();
     double duration1 = double(mid - start) / CLOCKS_PER_SEC;
     double duration2 = double(end - mid) / CLOCKS_PER_SEC;
-    cout << "Mathematicheskie deistviya programa otrabotala za : " << duration2 << " secund" << endl;
+    cout << "Mathematicheskie deistviya programa otrabotala za : " << duration2 << " secund\n";
     if (duration2 > 0.0) {
         cout << "Programa otrabotala za " << duration1 + duration2 << " secund\n";
     }
